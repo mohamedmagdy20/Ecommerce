@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+.burbel {
+    background-color: #ad1457 !important;
+}
+.container {
+    width: 85% !important;
+}
+.main-content .content {
+    background-color: rgba(62, 31, 206, 0.87);
+}
+
+.content .content-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.main-head {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sidebar {
+    background-color: black;
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+}
+.navspan {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    border: 0.3px solid #333;
+    border-color: none;
+    border-radius: 50%;
+    width: 41px;
+    height: 39px;
+    background: #fafafa;
+    text-align: center;
+}
+.openicon {
+    color: #d62e33;
+}
+.sidebar a {
+    color: #fff;
+}
+.sidebar ul {
+    list-style: none;
+    padding-top: 15px;
+    text-align: center;
+}
+.sidebar ul li {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.sidebar ul a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+.sidebar ul i {
+    color: #fff;
+}
+.sidebar a:hover {
+    color: #d62e33;
+    transition: ease-in-out 0.4s;
+}
+#Exit {
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #fff;
+}
+#Exit:hover {
+    color: #d62e33;
+    transition: ease-in-out 0.3s;
+}
+.openicon {
+    font-size: 2px;
+}
+.profile .image {
+    padding-top: 15px;
+    text-align: center;
+}
+.profile .image img {
+    border-radius: 50%;
+    border: 2px solid #d62e33;
+}
+.tablebody {
+    background-color: #f1f1f1;
+    border-top: 1px solid #9e9e9e;
+}
+
+thead {
+    background-color: #ad1457 !important;
+    border-bottom: 1px solid #fafafa;
+}
+.main {
+    width: 50%;
+    margin: 10px auto;
+}
+.has-search .form-control {
+    padding-left: 1rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-control:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: #d62e33;
+    outline: 0px;
+}
+.form-select:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: #d62e33;
+    outline: 0px;
+}
+
+.form-contain {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.form-contain button {
+    transform: translate(-9.1rem, -0.1rem);
+}
+
+/* @supports (not (-ms-ime-align: auto)) {
+    label {
+        color: #999;
+        transform: translate(0.25rem, -2.8rem);
+        transition: all 0.2s ease-out;
+    }
+
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+        color: #111;
+        transform: translate(0, -5rem);
+    }
+} */
+
+.product-contain label {
+    color: #d62e33;
+    font-weight: bolder;
+}
+
+.product-contain {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+/* .product-contain label {
+    transform: translate(-2.1rem, -2.1rem);
+}
+
+@supports (not (-ms-ime-align: auto)) {
+    .product-contain label {
+        color: #999;
+        transform: translate(0.25rem, -2rem);
+        transition: all 0.2s ease-out;
+    }
+
+    .product-contain input:focus + .product-contain label,
+    .product-contain input:not(:placeholder-shown) + .product-contain label {
+        color: #111;
+        transform: translate(0, -1rem);
+    }
+} */
+.prod-img {
+    width: 100px;
+    height: 70px;
+}
+.prod-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#fixedBox {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.select {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+#close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+#close:hover {
+    color: #d62e33;
+    transition: ease-in-out 0.3s;
+}
+#fixedbox_submit {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.amount a {
+    color: #333;
+}
+
+.amount a:hover {
+    color: #d62e33;
+    transition: ease-in-out 0.3s;
+}
